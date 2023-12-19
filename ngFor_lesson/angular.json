@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "esercitazione14_12": {
+    "ngFor_lesson": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/esercitazione14_12",
+            "outputPath": "dist/ng-for-lesson",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "esercitazione14_12:build:production"
+              "browserTarget": "ngFor_lesson:build:production"
             },
             "development": {
-              "browserTarget": "esercitazione14_12:build:development"
+              "browserTarget": "ngFor_lesson:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "esercitazione14_12:build"
+            "browserTarget": "ngFor_lesson:build"
           }
         },
         "test": {

@@ -7,6 +7,12 @@ import { ThirdComponentComponent } from './third-component/third-component.compo
 
 import { FourthComponentComponent } from './fourth-component/fourth-component.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
+import { FifthComponentComponent } from './fifth-component/fifth-component.component';
+import { SixthComponentComponent } from './sixth-component/sixth-component.component';
+import { SeventhComponentComponent } from './seventh-component/seventh-component.component';
+import { EightComponentComponent } from './eight-component/eight-component.component';
+import { NinthComponentComponent } from './ninth-component/ninth-component.component';
+import { TenthComponentComponent } from './tenth-component/tenth-component.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +21,13 @@ import { HomeComponentComponent } from './home-component/home-component.componen
     ThirdComponentComponent,
     
     FourthComponentComponent,
-         HomeComponentComponent
+         HomeComponentComponent,
+         FifthComponentComponent,
+         SixthComponentComponent,
+         SeventhComponentComponent,
+         EightComponentComponent,
+         NinthComponentComponent,
+         TenthComponentComponent
   ],
   imports: [
     BrowserModule

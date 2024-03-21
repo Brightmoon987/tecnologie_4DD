@@ -1,0 +1,90 @@
+{
+    "songs":[
+        {
+            "song_id":"1234",
+
+            "title":"theMonster",
+
+            "author":"God-of-earth",
+
+            "lyrics":"bababababababba",
+
+            "thumbnail":"https://hips.hearstapps.com/hmg-prod/images/circa-50-bc-julius-caesar-as-dictator-of-rome-wearing-a-news-photo-1678896712.jpg?crop=1.00xw:0.782xh;0,0.0350xh&resize=1200:*"
+
+        },
+
+
+        {
+            "song_id":"5678",
+
+            "title":"TheSlayer",
+
+            "author":"God-of-earth",
+
+            "lyrics":"hjhjhjhjhjhjhjh",
+
+            "thumbnail":"https://www.agefotostock.com/age/en/details-photo/mithridate-mithridates-king-of-pontus-andc/MEV-10031803"
+
+        },
+
+        {
+            "song_id":"9000",
+
+            "title":"theBeast",
+
+            "author":"God-of-earth",
+
+            "lyrics":"klklklklklklklklklkl",
+
+            "thumbnail":"https://www.vecteezy.com/photo/24057525-ascension-day-of-jesus-christ-or-resurrection-day-of-son-of-god-good-friday-ascension-day-concept-by-ai-generated"
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

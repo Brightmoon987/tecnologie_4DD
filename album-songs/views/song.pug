@@ -1,0 +1,10 @@
+//- song.pug
+html
+  head
+    title #{song.title}
+    link(rel="stylesheet", href="/styles.css")
+  body
+    h1 #{song.title}
+    p Author: #{song.author}
+    p Lyrics: #{song.lyrics}
+    img(src="#{song.thumbnail}", alt="#{song.title}")

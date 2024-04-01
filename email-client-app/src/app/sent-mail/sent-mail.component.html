@@ -1,0 +1,16 @@
+<!-- src/app/sent-mail/sent-mail.component.html -->
+
+<div *ngFor="let mail of sentMails" [class.special-mail]="mail.special">
+    <div class="mail">
+      <strong>From:</strong> {{ mail.from }}<br>
+      <strong>To:</strong> {{ mail.to }}<br>
+      <strong>Subject:</strong> {{ mail.subject }}<br>
+      <button (click)="toggleSpecial(mail)">Special</button>
+      <button (click)="expandMail(mail)" *ngIf="!mail.expanded">Espandi</button>
+      <button (click)="closeMail(mail)" *ngIf="mail.expanded">Chiudi</button>
+      <div *ngIf="mail.expanded">
+        <strong>Message:</strong> {{ mail.message }}
+      </div>
+    </div>
+  </div>
+  

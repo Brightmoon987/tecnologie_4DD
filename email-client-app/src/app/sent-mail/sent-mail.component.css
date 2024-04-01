@@ -1,0 +1,10 @@
+/* src/app/sent-mail/sent-mail.component.css */
+
+.mail {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .special-mail {
+    background-color: yellow;
+  }

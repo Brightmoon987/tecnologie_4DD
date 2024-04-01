@@ -1,0 +1,13 @@
+<!-- sent-mail.component.html -->
+<div *ngFor="let email of sentEmails" [ngClass]="{ 'special-email': email.special }">
+    From: {{ email.sender }} <br>
+    Subject: {{ email.subject }} <br>
+    <button (click)="toggleExpand(email)">Espandi/Chiudi</button>
+    <button (click)="makeSpecial(email)">Speciale</button>
+    <div *ngIf="email.expanded">
+      Body: {{ email.body }}
+    </div>
+    <br><br>
+  </div>
+  
+  

@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>App Email</h1>
+  <!-- Mostra il componente EmailForm e ascolta l'evento emailSent -->
+  <app-email-form (emailSent)="onEmailSent($event)"></app-email-form>
+  
+  <hr>
+  
+  <!-- Mostra il componente SentMail -->
+  <app-sent-mail [sentEmails]="allEmails"></app-sent-mail>
+</div>
+

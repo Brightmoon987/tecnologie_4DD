@@ -1,0 +1,14 @@
+
+<div class="form-group">
+    <label for="sender">From:</label>
+    <input type="text" class="form-control" id="sender" [(ngModel)]=newEmail.sender>
+  </div>
+  <div class="form-group">
+    <label for="subject">Subject:</label>
+    <input type="text" class="form-control" id="subject" [(ngModel)]=newEmail.subject>
+  </div>
+  <div class="form-group">
+    <label for="body">Body:</label>
+    <textarea class="form-control" id="body" [(ngModel)]="newEmail.body"></textarea>
+  </div>
+  <button class="btn btn-primary" (click)="sendEmail()">Invia</button>

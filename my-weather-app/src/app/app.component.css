@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #007bff; /* Colore primario */
+    --primary-hover-color: #0056b3; /* Colore primario al passaggio del mouse */
+    --secondary-color: #4CAF50; /* Colore secondario */
+    --secondary-hover-color: #45a049; /* Colore secondario al passaggio del mouse */
+    --text-color: #333; /* Colore del testo */
+    --title-color: #555; /* Colore dei titoli */
+    --background-color: #f9f9f9; /* Colore di sfondo */
+    --border-color: #ddd; /* Colore del bordo */
+  }
+  
+  /* Stili per il testo */
+  body {
+    font-family: 'Roboto', sans-serif; /* Utilizza il font Roboto */
+    color: var(--text-color); /* Utilizza la variabile per il colore del testo */
+    line-height: 1.6; /* Altezza della linea */
+  }
+  
+  h1, h2, h3 {
+    color: var(--title-color); /* Utilizza la variabile per il colore dei titoli */
+  }
+  
+  /* Stili per i pulsanti */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary-color); /* Utilizza la variabile per il colore primario */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: var(--primary-hover-color); /* Utilizza la variabile per il colore primario al passaggio del mouse */
+  }
+  
+  /* Stili per i componenti */
+  .card {
+    background-color: var(--background-color); /* Utilizza la variabile per il colore di sfondo */
+    border: 1px solid var(--border-color); /* Utilizza la variabile per il colore del bordo */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Stili per l'input */
+  .input_text {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--border-color); /* Utilizza la variabile per il colore del bordo */
+    border-radius: 5px;
+  }
+  
+  /* Stili per il pulsante di invio */
+  .submit {
+    background-color: var(--secondary-color); /* Utilizza la variabile per il colore secondario */
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .submit:hover {
+    background-color: var(--secondary-hover-color); /* Utilizza la variabile per il colore secondario al passaggio del mouse */
+  }
